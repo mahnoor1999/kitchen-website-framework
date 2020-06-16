@@ -1,0 +1,12 @@
+.carousel-inner{
+    z-index: 0;
+}
+.carousel-div{
+   top: 28%;
+   left: 10%;
+   padding: 2%;
+}
+
+/* .info{
+    transform: translate(0%, -130%);
+} */
