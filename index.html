@@ -25,7 +25,7 @@
         <!-- ************************nav-bar********************* -->
         <nav>
             <ul
-                class="flex  lg:items-center xl:items-center lg:justify-between xl:justify-between lg:px-0 xl:px-10 lg:w-full xl:w-full h-13 border-t-2 border-black py-1  bg-yellow-900 text-yellow-200 font-serif  sm:hidden lg:flex md:hidden xl:flex">
+                class="flex hidden lg:items-center xl:items-center lg:justify-between xl:justify-between lg:px-0 xl:px-10 lg:w-full xl:w-full h-13 border-t-2 border-gray-900 py-1  bg-yellow-900 text-yellow-200 font-serif  sm:hidden lg:flex md:hidden xl:flex">
                 <li class="xl:px-9 lg:px-8 py-2 bg-yellow-900 hover:bg-yellow-800   ">Home</li>
                 <li class="xl:px-9 lg:px-8 py-2 bg-yellow-900 hover:bg-yellow-800  ">Banquet </li>
                 <li class="xl:px-9 lg:px-8 py-2 bg-yellow-900 hover:bg-yellow-800  ">Rooms </li>
@@ -38,10 +38,12 @@
             </ul>
         </nav>
         <!-- ******************logo**************** -->
-        <div class="flex bg-white justify-between px-20 py-4  items-center h-2 ">
-            <img src="images/logo.png" alt="kitchen logo" class="pl-10 h-12 sm:pt-3 lg:pt-0 xl:pt-0 md:pt-2 ">
+        <div
+            class="flex items-start  flex-col lg:flex-row xl:flex-row md:flex-col sm:flex-col bg-white justify-between  md:items-start sm:items-start px-20 py-4 lg:items-center xl:items-center xl:h-2 lg:h-2 md:h-25 sm:h-25 ">
+            <img src="images/logo.png" alt="kitchen logo" class="pl-10 h-12 sm:pt-3 lg:pt-0 xl:pt-0 md:pt-2 mb-2 ">
+
             <span
-                class="text-2xl px-3  text-yellow-900  border-2 border-yellow-900 hover:bg-yellow-900 hover:text-white"><i
+                class="text-2xl px-3 mb-1 ml-10 text-yellow-900  border-2 border-yellow-900 hover:bg-yellow-900 hover:text-white"><i
                     class="fas fa-bars"></i></span>
         </div>
     </header>
@@ -90,34 +92,22 @@
         <section
             class="grid xl:grid-row-1 xl:grid-cols-3  lg:grid-row-1 lg:grid-cols-3  md:grid-row-2 md:grid-cols-2  sm:grid-row-3 sm:grid-cols-1 gap-2 justify-around m-5 ">
             <div
-                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3">
+                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3 hover:bg-pink-100">
                 <h2>BANQUETS</h2>
-                <img class="w-50 rounded-full" src="images/service-img 1.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-1">The Coldest Sunset</div>
-                    <p class="text-gray-700 ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                        perferendis eaque, exercitationem praesentium nihil.
-                    </p>
-                </div>
+                <img class="w-50 rounded-full mb-5 mt-2" src="images/service-img 1.jpg" alt="Sunset in the mountains">
+
                 <div class="px-6 pb-4">
                     <span class="inline-block  px-2  text-md font-semibold  text-gray-700 mr-2">Quisque necerat blandi
                         sceleris sesqueafacili venenatis.</span>
                     <span class="block uppercase font-bold text-gray-600 py-1">View Our Banquets</span>
                 </div>
             </div>
-            <!-- *****************Services************************* -->
+
             <div
-                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3">
+                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3 hover:bg-pink-100">
                 <h2>KITCHEN MENU</h2>
-                <img class="w-50 rounded-full" src="images/srvice img 2.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-1">The Coldest Sunset</div>
-                    <p class="text-gray-700 ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                        perferendis eaque, exercitationem praesentium nihil.
-                    </p>
-                </div>
+                <img class="w-50 rounded-full mb-5 mt-2" src="images/srvice img 2.jpg" alt="Sunset in the mountains">
+
                 <div class="px-6 pb-4">
                     <span class="inline-block  px-2 text-md font-semibold  text-gray-700 mr-2">Quisque necerat blandi
                         sceleris sesqueafacili venenatis.</span>
@@ -125,16 +115,10 @@
                 </div>
             </div>
             <div
-                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3">
+                class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3 hover:bg-pink-100">
                 <h2>HOTEL ROOMS</h2>
-                <img class="w-50 rounded-full" src="images/service-img 3.jpg" alt="Sunset in the mountains">
-                <div class="px-6 py-4">
-                    <div class="font-bold text-xl mb-1">The Coldest Sunset</div>
-                    <p class="text-gray-700 ">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et
-                        perferendis eaque, exercitationem praesentium nihil.
-                    </p>
-                </div>
+                <img class="w-50 rounded-full mb-5 mt-2" src="images/service-img 3.jpg" alt="Sunset in the mountains">
+
                 <div class="px-6 pb-4">
                     <span class="inline-block  px-2  text-md font-semibold  text-gray-700 mr-2">Quisque necerat blandi
                         sceleris sesqueafacili venenatis.</span>
@@ -185,7 +169,7 @@
 
             <div
                 class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 py-3 px-3 ">
-                <span class="text-pink-500 pb-10 text-2xl "><i class="fas fa-quote-left"></i></span>
+                <span class="text-pink-500 pb-10 text-2xl mr-64 "><i class="fas fa-quote-left"></i></span>
                 <p>
                     Amazing restaurant, Nice place to visit and arrange a any kind of function or parties, also food
                     is so
@@ -194,7 +178,7 @@
             </div>
             <div
                 class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 py-3 px-3">
-                <span class="text-pink-500 pb-10 text-2xl "><i class="fas fa-quote-left"></i></span>
+                <span class="text-pink-500 pb-10 text-2xl mr-64"><i class="fas fa-quote-left"></i></span>
                 <p>
                     Outstanding restaurant, Nice place to visit and arrange a any kind of function or parties, also
                     food is so
@@ -203,7 +187,7 @@
             </div>
             <div
                 class="max-w-sm rounded overflow-hidden shadow-lg flex flex-col items-center text-center border-2 border-grey-100 pt-3 pb-20 px-3">
-                <span class="text-pink-500 pb-10 text-2xl "><i class="fas fa-quote-left"></i></span>
+                <span class="text-pink-500 pb-10 text-2xl mr-64"><i class="fas fa-quote-left"></i></span>
                 <p>
                     It is Superb, Nice place to visit and arrange a any kind of function or parties, also food is so
                     fresh & testy, i love this place”<br>
@@ -272,7 +256,8 @@
             </div>
         </section> -->
         <!-- ********************lunch offer***************** -->
-        <section class="sm:flex lg:flex xl:flex md:flex  justify-around items-center  h-full sm:flex-col md:flex-col lg:flex-row xl:flex=row">
+        <section
+            class="flex  justify-around items-center flex-col h-full sm:flex-col md:flex-col lg:flex-row xl:flex=row">
             <img src="images/cta_offer_img_1.jpg" alt="cattering" class="rounded-full mb-4 mr-5">
             <div class="w-64 mb-4 mr-5">
                 <h1 class="bold text-indigo-300 ">$15.99</h1>
@@ -295,55 +280,75 @@
 
     </main>
     <!-- **************************footer************************* -->
-    <footer class="bg-yellow-900 text-gray-400 p-32  grid lg:grid-cols-4 lg:grid-row-1  xl:grid-cols-4 xl:grid-row-1 sm:grid-cols-2 sm:grid-row-2 md:grid-cols-2 lg:grid-row-2 ">
-        <div class="mb-5">
-            <h5 class="text-gray-100">QUICK LINKS</h5>
-            <ul>
-                 <li class="py-3">> Home</li>
-                 <li class="py-2">> Blog</li>
-                 <li class="py-2">> About</li>
-                 <li class="py-2">> Customer Reviews</li>
-                 <li class="py-2">> FAQ's</li>
-                 <li class="py-2">> Contact</li>
+    <footer>
+        <div
+            class="bg-yellow-900 text-gray-400  p-32  grid lg:grid-cols-4 lg:grid-row-1  xl:grid-cols-4 xl:grid-row-1 sm:grid-cols-2 sm:grid-row-2 md:grid-cols-2 lg:grid-row-2 ">
+            <div class="mb-5">
+                <h5 class="text-gray-100 ">QUICK LINKS</h5>
+                <ul class="font-italic font-serif">
+                    <li class="py-3 hover:text-gray-200  "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Home</li>
+                    <li class="py-2 hover:text-gray-200 "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Blog</li>
+                    <li class="py-2 hover:text-gray-200 "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> About</li>
+                    <li class="py-2 hover:text-gray-200 "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Customer Reviews</li>
+                    <li class="py-2 hover:text-gray-200 "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> FAQ's</li>
+                    <li class="py-2 hover:text-gray-200 "><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Contact</li>
 
-            </ul>
+                </ul>
+            </div>
+            <div class="mb-5">
+                <h5 class="text-gray-100">SERVICES</h5>
+                <ul class="font-italic font-serif">
+                    <li class="py-2 hover:text-gray-200"><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Banquet hall</li>
+                    <li class="py-2 hover:text-gray-200"><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Hotel rooms</li>
+                    <li class="py-2 hover:text-gray-200"><span class="text-xs pr-2 "><i
+                                class="fas fa-chevron-right"></i></span> Kitchen Menu</li>
+
+                </ul>
+            </div>
+            <div class="mb-5">
+                <h5 class="text-gray-100">SOCIAL MEDIA</h5>
+                <ul class="font-italic font-serif">
+                    <li class="py-2 "><span class="text-lg  p-1 text-blue-400"><i class="fab fa-facebook"></i></span>
+                        Facebook</li>
+                    <li class="py-2 "><span class="text-lg  p-1 text-blue-400 "><i class="fab fa-twitter"></i></span>
+                        Twitter</li>
+                    <li class="py-2 "><span class="text-lg  p-1 text-blue-300 "><i
+                                class="fab fa-linkedin-in"></i></span> Linked In</li>
+                    <li class="py-2 "><span class="text-lg  p-1 text-pink-200 "><i class="fab fa-instagram"></i></span>
+                        Instagram</li>
+                    <li class="py-2 "><span class="text-lg  p-1 text-red-600 "><i class="fab fa-google-plus"></i></span>
+                        Google Plus</li>
+
+                </ul>
+            </div>
+            <div class="mb-5">
+                <h5 class="text-gray-100">NEWSLETTER</h5>
+                <ul class=" font-serif">
+                    <li class="py-2 hover:text-gray-200 font-italic">Join Us For get Special offers and event
+                        announcements.
+                    </li>
+                    <li class="py-2 pl-3 bg-gray-800"><input type="email" placeholder="Enter your Email"
+                            class="bg-transparent outline-none"></li>
+                    <li class="py-2 px-2 w-24 mt-3 border-2 border-yellow-800 hover:bg-yellow-800">
+                        <button>Subscribe</button></li>
+
+                </ul>
+            </div>
+
+
         </div>
-        <div class="mb-5">
-            <h5  class="text-gray-100">SERVICES</h5>
-            <ul>
-                 <li class="py-2">> Banquet hall</li>
-                 <li class="py-2">> Hotel rooms</li>
-                 <li class="py-2">> Kitchen Menu</li>
-
-            </ul>
+        <div class="bg-yellow-800 text-gray-200 text-center text-sm m-0  p-2">
+            <p>Copyright © All Rights Reserved 2020 Template Design & Development by EaseTemplate</p>
         </div>
-        <div class="mb-5">
-            <h5  class="text-gray-100">SOCIAL MEDIA</h5>
-            <ul>
-                 <li class="py-2">> Facebook</li>
-                 <li class="py-2">> Twitter</li>
-                 <li class="py-2">> Linked In</li>
-                 <li class="py-2">> Instagram</li>
-                 <li class="py-2">> Google Plus</li>
-
-            </ul>
-        </div>
-        <div class="mb-5">
-            <h5  class="text-gray-100">NEWSLETTER</h5>
-            <ul>
-                <li class="py-2">Join Us For get Special offers and event announcements.
-                </li>
-                <li class="py-2"><button >Enter Your Email</button></li>
-                <li class="py-2"><button>Subscribe</button></li>
-
-            </ul>
-        </div>
-        
-
     </footer>
-    <div class="bg-gray-500 text-grey-300 text-center">
-        <p>Copyright © All Rights Reserved 2020 Template Design & Development by EaseTemplate</p>
-    </div>
 
 
 
