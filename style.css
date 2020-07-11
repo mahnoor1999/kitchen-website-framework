@@ -6,6 +6,20 @@
    left: 10%;
    padding: 2%;
 }
+
+header ul:hover .nav-items , header ul:focus .nav-items{
+    display: flex;  
+}
+.cross:hover~.nav-items,.cross:focus~.nav-items {
+display: none !important;
+}
+.cross{
+    display: none;
+}
+ul:hover .cross{
+    display: inline;
+ }
+
 @media (max-width: 640px) {
     .carousel-inner{
         z-index: 0;
@@ -38,6 +52,3 @@
 }
 
 
-/* .info{
-    transform: translate(0%, -130%);
-} */
